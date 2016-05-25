@@ -38,9 +38,6 @@ Example usage:
             _ravenClient.Logger = "Unity";
             _ravenClient.LogScrubber = new SharpRaven.Logging.LogScrubber();
 
-            // Todo: Include Volo Airsport version string
-            // Todo: Since these tags are always included, please just cache them in the jsonpacket or something.
-
             _clientInfoTags = new Dictionary<string, string>();
 
             _clientInfoTags.Add("Version", "-1");
