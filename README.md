@@ -1,6 +1,8 @@
 # RavenUnity
 Butchered version of https://github.com/kimsama/Unity3D-Raven for use with Unity 5.x
 
+Note: This could be optimized quite a bit, especially with respect to garbage generation. However, every time Unity fires an Exception it already creates so much garbage that a little bit extra doesn't matter.
+
 Example usage:
 
     using System;
